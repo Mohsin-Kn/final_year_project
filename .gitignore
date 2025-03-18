@@ -1,1 +1,8 @@
 **/.env
+
+# Ignore everything
+*
+
+# Unignore the required folders
+!FYP2/Code/
+!FYP2/application/

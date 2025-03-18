@@ -1,14 +1,2 @@
 **/.env
 
-# Ignore everything inside FYP/
-*
-
-# Allow only FYP2/
-!FYP2/
-
-# Inside FYP2, ignore everything by default
-FYP2/*
-
-# Allow only Code and application inside FYP2
-!FYP2/Code/
-!FYP2/application/

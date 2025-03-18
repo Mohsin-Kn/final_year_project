@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  DB_NAME: clamp_db
+  DB_PASSWORD: admin
+  DB_USER: admin
+  POSTGRES_DB: clamp_db
+  POSTGRES_HOST: postgres-db
+  POSTGRES_PASSWORD: admin
+  POSTGRES_PORT: "5433"
+  POSTGRES_USER: postgres
+kind: ConfigMap
+metadata:
+  labels:
+    io.kompose.service: auth-service-env
+  name: env

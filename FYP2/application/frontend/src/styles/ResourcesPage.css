@@ -1,0 +1,46 @@
+.resources-page-container {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.tab-content-TabPanel {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resource-name-anchor-tag {
+  text-decoration: none !important;
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  text-align: start;
+}
+
+.resource-name-anchor-tag:hover {
+  color: blue;
+}
+
+@media (max-width: 600px) {
+  .resources-page-container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .tab-content-TabPanel {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .paper-div {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  .tab-content-TabPanel {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
